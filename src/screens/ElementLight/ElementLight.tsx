@@ -14,8 +14,8 @@ export const ElementLight = (): JSX.Element => {
         <header className="w-full bg-white shadow-sm sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between py-6">
-              {/* Logo Section - Left Aligned */}
-              <div className="flex-shrink-0">
+              {/* Logo Section - Desktop & Tablet */}
+              <div className="hidden sm:flex flex-shrink-0">
                 <a href="/" className="flex items-center hover:opacity-80 transition-opacity duration-200">
                   <div className="text-left">
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#c292a1] leading-none mb-1">
@@ -28,9 +28,18 @@ export const ElementLight = (): JSX.Element => {
                 </a>
               </div>
 
+              {/* Mobile Logo Section - Centered */}
+              <div className="sm:hidden flex-1 flex justify-center">
+                <a href="/" className="flex items-center hover:opacity-80 transition-opacity duration-200">
+                  <h1 className="text-3xl font-bold text-[#c292a1] leading-none">
+                    Bbeautiful
+                  </h1>
+                </a>
+              </div>
+
               {/* Contact Information - Right Side */}
               <div className="flex items-center space-x-4">
-                {/* Book Now Button */}
+                {/* Desktop Book Now Button */}
                 <Button className="hidden sm:flex bg-gradient-to-r from-[#c292a1] to-[#a87b96] hover:from-[#b08291] hover:to-[#96697f] text-white font-bold text-sm tracking-[2px] px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg">
                   BOOK NOW
                 </Button>
@@ -46,7 +55,7 @@ export const ElementLight = (): JSX.Element => {
                   <span className="hidden sm:inline">(678) 404-5969</span>
                 </a>
 
-                {/* Social Media Icons */}
+                {/* Desktop Social Media Icons */}
                 <div className="hidden md:flex items-center space-x-2">
                   <a
                     href="https://facebook.com"

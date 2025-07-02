@@ -254,27 +254,8 @@ export const TestimonialsSection = (): JSX.Element => {
         </div>
       </section>
 
-<<<<<<< Updated upstream
       {/* Target Audience Section */}
       <section className="w-full py-20 bg-white">
-=======
-      {/* Brand Banner */}
-      <div className="w-full bg-gradient-to-r from-[#f8f5f0] to-[#f4f0ea] py-16">
-        <div className="max-w-4xl mx-auto text-center px-4">
-          <img 
-            src="./bbeautiful-logo.png" 
-            alt="Bbeautiful Medical Spa & Wellness Center" 
-            className="h-20 mx-auto mb-8"
-          />
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Experience luxury treatments in our state-of-the-art facility, where beauty meets wellness
-          </p>
-        </div>
-      </div>
-
-      {/* Treatments Section */}
-      <div className="w-full py-20 bg-white">
->>>>>>> Stashed changes
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-[#a78351] mb-8">
@@ -401,20 +382,9 @@ export const TestimonialsSection = (): JSX.Element => {
             <div className="relative flex justify-center">
               <div className="relative w-[400px] h-[280px]">
                 <img 
-<<<<<<< Updated upstream
                   src="/bbcard.png" 
                   alt="$50 Gift Card New Client Special"
                   className="w-full h-full object-contain rounded-2xl shadow-2xl transition-transform duration-300 hover:scale-105"
-=======
-                  src="./BBCARD.png" 
-                  alt="Contest Prize Gift Card" 
-                  className="w-[240px] h-[140px] absolute top-4 left-2 rounded-2xl transform rotate-[-8deg] shadow-xl transition-transform duration-300 hover:rotate-[-4deg] object-cover"
-                />
-                <img 
-                  src="./BBCARD.png" 
-                  alt="Contest Prize Gift Card" 
-                  className="w-[240px] h-[140px] absolute top-[100px] left-[45px] rounded-2xl transform rotate-[8deg] shadow-xl transition-transform duration-300 hover:rotate-[4deg] object-cover opacity-80"
->>>>>>> Stashed changes
                 />
               </div>
             </div>

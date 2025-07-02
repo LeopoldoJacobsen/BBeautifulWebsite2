@@ -122,16 +122,8 @@ export const MedicalAesthetics = (): JSX.Element => {
                 Welcome To
               </p>
               <div className="mb-8">
-<<<<<<< Updated upstream
                 <h2 className="text-4xl font-bold text-[#c292a1] mb-2">Bbeautiful</h2>
                 <p className="text-lg text-[#a78351] font-medium tracking-wider">Medical Spa & Wellness Center</p>
-=======
-                <img 
-                  src="./bbeautiful-logo.png" 
-                  alt="Bbeautiful Medical Spa & Wellness Center" 
-                  className="h-20 mx-auto mb-4"
-                />
->>>>>>> Stashed changes
               </div>
               <p className="font-bold text-[#874c62] text-lg mb-6">
                 Located in Chamblee, GA

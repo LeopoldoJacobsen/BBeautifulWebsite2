@@ -129,7 +129,13 @@ export const HeroSection = (): JSX.Element => {
           {/* Mobile Navigation */}
           <div className="lg:hidden">
             <div className="flex items-center justify-between py-4">
+              {/* Left side - empty for balance */}
+              <div className="w-10"></div>
+              
+              {/* Center - Menu text */}
               <span className="text-white font-semibold text-base tracking-[1px]">MENU</span>
+              
+              {/* Right side - Hamburger menu button */}
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 className="text-white p-2 rounded-lg hover:bg-white/15 transition-colors duration-200"
