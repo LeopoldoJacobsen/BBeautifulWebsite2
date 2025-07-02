@@ -6,7 +6,7 @@ export const PromoSection = (): JSX.Element => {
   const contactInfo = [
     {
       icon: <PhoneIcon className="w-5 h-5 text-[#c292a1]" />,
-      text: "1 (678) 404-5969",
+      text: "(678) 404-5969",
       label: "Call Us"
     },
     {
@@ -24,11 +24,13 @@ export const PromoSection = (): JSX.Element => {
   const socialMedia = [
     { 
       icon: <Facebook className="w-6 h-6" />, 
-      label: "Facebook" 
+      label: "Facebook",
+      url: "https://facebook.com"
     },
     { 
       icon: <Instagram className="w-6 h-6" />, 
-      label: "Instagram" 
+      label: "Instagram",
+      url: "https://www.instagram.com/bbeautifulmedicalspa/"
     },
   ];
 
@@ -87,13 +89,16 @@ export const PromoSection = (): JSX.Element => {
               </h4>
               <div className="flex space-x-4">
                 {socialMedia.map((item, index) => (
-                  <button
+                  <a
                     key={`social-${index}`}
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-12 h-12 bg-[#c292a1] rounded-full flex items-center justify-center hover:bg-[#b08291] transition-all duration-300 hover:scale-110 group text-white"
                     aria-label={item.label}
                   >
                     {item.icon}
-                  </button>
+                  </a>
                 ))}
               </div>
             </div>
