@@ -1,0 +1,1 @@
+export { FacialRejuvenation } from "./FacialRejuvenation";

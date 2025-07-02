@@ -1,0 +1,1 @@
+export { MedicalAesthetics } from "./MedicalAesthetics";
